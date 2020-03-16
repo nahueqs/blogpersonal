@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+nav, aside, footer, hgroup, figure, article, section{
+  display: block;
+}
+
+body{
+  width: 1370px;
+}
+
+#logo_superior{
+  width: 50px;
+  margin: 20px auto;
+  position: relative;
+  height: 50px;
+  background: rgba(0,0,255, 0.5);
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Eagle Lake', cursive;
+}
+
+/*aca defino el tamaño y el borde redondo de la imagen*/
+#retrato_principal {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+}
+
+/*aca centro la imagen */
+#introduccion figure{
+  margin: auto;
+  width: 350px;
+}
+
+#introduction hgroup{
+  margin: auto;
+  width: 500px;
+}
