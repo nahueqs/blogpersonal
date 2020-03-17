@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav, aside, footer, hgroup, figure, article, section{
@@ -13,6 +12,7 @@ nav, aside, footer, hgroup, figure, article, section{
 #redes {
   height: 100px;
   position: relative;
+  float: left;
 }
 
 .iconosredes{
@@ -36,7 +36,7 @@ nav, aside, footer, hgroup, figure, article, section{
 
 /*aca defino el ancho total de la pagina*/
 body{
-  width: 1370px;
+  width: 1270px;
 }
 
 /*aca defino el tamaño y el borde redondo de la imagen retrato*/
@@ -48,7 +48,7 @@ body{
 
 /*aca centro la introduccion */
 #introduccion {
-  margin: auto;
+  margin: 10px  auto;
   width: 350px;
   position: relative ;
   text-align: center;
@@ -61,43 +61,51 @@ body{
   background: black;
 }
 
-section#aboutme{  
+#aboutme{  
   margin: 20px auto;
   position: relative;
   width: 400px;
+  text-align: justify;
 }
 
-section#skills{  
+#skills{  
   margin: 20px auto;
   position: relative;
-  width: 400px;
-  height: 125px;
-}
-
-section#skill ul{
-  width: 312;
-  height: 100px;
-}
-
-section#skills ul li {
-  margin:10px;
-  width: 84px;
-  float: left;
   text-align: center;
-  height: 100px;
+  width: 80px;
+
 }
 
-#skills img {
-  float:left;
-  height:64px;
-  padding: 10px;
-  position: relative;
+.iconoskills img{
   width: 64px;
+  height: 64px;
 }
 
-section#Proyectos{  
-  margin: 60px auto;
+#skills div {
+  margin: 20px auto;
+  width: 80px;
+}
+
+.iconoskills{
+  display: inline-block;
+  margin: 5px 10px;
+  text-align: center;
+
+}
+
+.iconoIntPersonales{
+  width: 74px;
+  margin: 20px 10px;
+  height: 74px;
+}
+
+#interesesPersonales{  
+  margin: 20px auto;
   position: relative;
-  width: 400px;
-  height: 400px;
+  text-align: center;
+  width: 200px;
+}
+footer {
+  text-align: center;
+  height: 40px;
 }
