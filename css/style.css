@@ -9,36 +9,51 @@
 nav, aside, footer, hgroup, figure, article, section{
   display: block;
 }
-
+/*aca defino el ancho total de la pagina*/
 body{
   width: 1370px;
 }
-
-#logo_superior{
-  width: 50px;
-  margin: 20px auto;
-  position: relative;
-  height: 50px;
-  background: rgba(0,0,255, 0.5);
-  text-align: center;
-  line-height: 50px;
-  font-family: 'Eagle Lake', cursive;
-}
-
-/*aca defino el tamaño y el borde redondo de la imagen*/
+/*aca defino el tamaño y el borde redondo de la imagen retrato*/
 #retrato_principal {
-  height: 350px;
+  margin-bottom: 10px;
+  height: 350px;      
   width: 350px;
   border-radius: 100%;
 }
+/*aca defino el tamaño y margen la caja que contiene los 3 logos de las redes sociales*/
+#redes {
+  margin: 20px, 5px;
+  width: 312px;
 
-/*aca centro la imagen */
-#introduccion figure{
+  height: 80px ;
+}
+/*aca defino la disposicion y tamaño de cada uno de los logos de las redes sociales*/
+#redes li img {
+  width: 64px;
+  height: 64px;
+  float: left;
+  padding:20px;
+  margin-top: 10px;
+}
+
+#redes li img:hover {
+  background-color: grey;
+}
+/*aca centro la introduccion */
+#introduccion {
   margin: auto;
   width: 350px;
+  text-align: center;
+}
+.separador {
+  width: 700px;
+  height: 1px;
+  margin:20px auto;
+  background: black;
 }
 
-#introduction hgroup{
-  margin: auto;
-  width: 500px;
+section#aboutme{  
+  margin: 20px auto;
+  width: 400px;
 }
+
