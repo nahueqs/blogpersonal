@@ -9,42 +9,51 @@
 nav, aside, footer, hgroup, figure, article, section{
   display: block;
 }
-/*aca defino el ancho total de la pagina*/
-body{
-  width: 1370px;
-}
-/*aca defino el tamaño y el borde redondo de la imagen retrato*/
-#retrato_principal {
-  margin-bottom: 10px;
-  height: 350px;      
-  width: 350px;
-  border-radius: 100%;
-}
-/*aca defino el tamaño y margen la caja que contiene los 3 logos de las redes sociales*/
-#redes {
-  margin: 20px, 5px;
-  width: 312px;
 
-  height: 80px ;
+#redes {
+  height: 100px;
+  position: relative;
 }
-/*aca defino la disposicion y tamaño de cada uno de los logos de las redes sociales*/
-#redes li img {
+
+.iconosredes{
+  position: fixed;
+  margin: 20px;
+}
+
+#iconoredes2{
+  top:0;
+  right: 20px;
+}
+
+#redes img {
   width: 64px;
   height: 64px;
-  float: left;
-  padding:20px;
-  margin-top: 10px;
 }
 
 #redes li img:hover {
   background-color: grey;
 }
+
+/*aca defino el ancho total de la pagina*/
+body{
+  width: 1370px;
+}
+
+/*aca defino el tamaño y el borde redondo de la imagen retrato*/
+#retrato_principal {
+  height: 350px;      
+  width: 350px;
+  border-radius: 100%;
+}
+
 /*aca centro la introduccion */
 #introduccion {
   margin: auto;
   width: 350px;
+  position: relative ;
   text-align: center;
 }
+
 .separador {
   width: 700px;
   height: 1px;
@@ -54,6 +63,41 @@ body{
 
 section#aboutme{  
   margin: 20px auto;
+  position: relative;
   width: 400px;
 }
 
+section#skills{  
+  margin: 20px auto;
+  position: relative;
+  width: 400px;
+  height: 125px;
+}
+
+section#skill ul{
+  width: 312;
+  height: 100px;
+}
+
+section#skills ul li {
+  margin:10px;
+  width: 84px;
+  float: left;
+  text-align: center;
+  height: 100px;
+}
+
+#skills img {
+  float:left;
+  height:64px;
+  padding: 10px;
+  position: relative;
+  width: 64px;
+}
+
+section#Proyectos{  
+  margin: 60px auto;
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
